@@ -1,0 +1,156 @@
+[
+    {
+        "name": "teorema de pitagoras",
+        "slug": "teorema-de-pitagoras",
+        "keywords": [
+            "teorema de pitagoras",
+            "pitagoreas",
+            "hipotenusa"
+        ],
+        "description": "El **Teorema de Pitágoras** es un principio fundamental en geometría, que establece que en un triángulo rectángulo (es decir, un triángulo que tiene un ángulo de 90 grados), el cuadrado de la longitud de la hipotenusa (el lado opuesto al ángulo recto) es igual a la suma de los cuadrados de las longitudes de los otros dos lados, llamados catetos.",
+        "table-media": {
+            "width": 300,
+            "height": 250,
+            "coordinates.cartesian": {
+                "show": false,
+                "subdivisions": 5
+            }
+        },
+        "formulas": [
+            {
+                "str": "a^2 + b^2 = c^2",
+                "pos": [
+                    0,
+                    2
+                ],
+                "values": {
+                    "a": "Lado del triangulo retangulo",
+                    "b": "Lado del triangulo retangulo",
+                    "c": "hipotenusa"
+                }
+            },
+            {
+                "str": "c^2 - a^2 = b^2",
+                "pos": [
+                    0,
+                    0.7
+                ],
+                "values": {
+                    "a": "Lado del triangulo retangulo",
+                    "b": "Lado del triangulo retangulo",
+                    "c": "hipotenusa"
+                }
+            },
+            {
+                "str": "c^2 - b^2 = c^2",
+                "pos": [
+                    0,
+                    -0.5
+                ],
+                "values": {
+                    "a": "Lado del triangulo retangulo",
+                    "b": "Lado del triangulo retangulo",
+                    "c": "hipotenusa"
+                }
+            },
+            {
+                "str": "√a^2+b^2 = c^2",
+                "pos": [
+                    0,
+                    -1.8
+                ],
+                "values": {
+                    "a": "Lado del triangulo retangulo",
+                    "b": "Lado del triangulo retangulo",
+                    "c": "hipotenusa"
+                }
+            }
+        ],
+        "examples": [
+            {
+                "description": "En un triángulo rectángulo, los catetos miden 3 cm y 4 cm. ¿Cuál es la longitud de la hipotenusa?\n\n Donde `a=3`, `b=4` y `c` es la hipotenusa",
+                "math": {
+                    "table-media": {
+                        "width": 500,
+                        "height": 250,
+                        "coordinates.cartesian": {
+                            "show": false,
+                            "subdivisions": 5
+                        }
+                    },
+                    "process": [
+                        {
+                            "str": "a^2 + b^2 = c^2",
+                            "pos": [
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "str": "c^2 - a^2 = b^2",
+                            "pos": [
+                                0,
+                                0.7
+                            ]
+                        },
+                        {
+                            "str": "c^2 - b^2 = c^2",
+                            "pos": [
+                                0,
+                                -0.5
+                            ]
+                        },
+                        {
+                            "str": "√a^2+b^2 = c^2",
+                            "pos": [
+                                0,
+                                -1.8
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Teorema de pitagoras 2",
+        "slug": "teorema-de-pitagoras-2",
+        "keywords": [
+            "teorema de pitagoras",
+            "pitagoreas",
+            "hipotenusa"
+        ],
+        "description": "En matemáticas, el teorema de Pitágoras es una relación en geometría euclidiana entre los tres lados de un triángulo rectángulo. Afirma que el área del cuadrado cuyo lado es la hipotenusa es igual a la suma de las áreas de los cuadrados cuyos lados son los catetos",
+        "table-media": {
+            "width": 300,
+            "height": 200
+        },
+        "formulas": [
+            {
+                "str": "a^2 + b^2 = c^2",
+                "pos": [
+                    0,
+                    5
+                ],
+                "values": {
+                    "a": "Lado del triangulo retangulo",
+                    "b": "Lado del triangulo retangulo",
+                    "c": "hipotenusa"
+                }
+            },
+            {
+                "str": "√a^2+b^2 = c",
+                "pos": [
+                    0,
+                    5
+                ],
+                "values": {
+                    "a": "Lado del triangulo retangulo",
+                    "b": "Lado del triangulo retangulo",
+                    "c": "hipotenusa"
+                }
+            }
+        ],
+        "examples": []
+    }
+]
