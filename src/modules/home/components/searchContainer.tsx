@@ -32,7 +32,7 @@ export const SearchContainer = () => {
                     {
                         list.map(e => (
                             <div className='mb-2 p-2 border border-gray-500 rounded' key={e.name}>
-                                <Link href={e.slug} className='cursor-pointer duration-200 hover:pl-2 hover:text-teal-300'>{e.name}</Link>
+                                <Link href={`/formulas/${e.slug}`} className='cursor-pointer duration-200 hover:pl-2 hover:text-teal-300'>{e.name}</Link>
                             </div>
                         ))
                     }
